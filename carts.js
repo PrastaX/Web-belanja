@@ -27,7 +27,7 @@ function renderCart() {
   <img src="orang.jpeg" alt="Empty State" class="mx-auto mb-4 gambar">
   <p class="text-lg text-gray-700">Keranjangmu masih kosong</p>
   <p class="text-gray-500">Yuk, belanja sekarang dan tambahkan barang ke keranjangmu!</p>
-  <a href="Bang.Api.html" class="mt-4 inline-block px-7 py-4 bg-blue-500 text-white rounded-full">Mulai Belanja</a>
+  <a href="index.html" class="mt-4 inline-block px-7 py-4 bg-blue-500 text-white rounded-full">Mulai Belanja</a>
 </div>`;
         cartTotal.textContent = formatCurrency(0);
         return;
