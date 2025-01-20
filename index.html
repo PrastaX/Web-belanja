@@ -71,11 +71,11 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.15.10/dist/sweetalert2.min.css
                 </div>
                 <!-- Gambar 2 -->
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="Kacamata.jpg" class="d-block w-70" alt="Gambar Kacamata">
+                    <img src="bounce.jpg" class="d-block w-70" alt="Gambar bounceman">
                 </div>
                 <!-- Gambar 3 -->
                 <div class="carousel-item">
-                    <img src="Baju.jpg" class="d-block w-70" alt="Gambar Baju">
+                    <img src="panjang.jpg" class="d-block w-70" alt="Gambar Baju">
                 </div>
                 <!-- Gambar 4 -->
                 <div class="carousel-item">
@@ -129,7 +129,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.15.10/dist/sweetalert2.min.css
 
         <!--Product-->
         <div class="container mx-auto px-4 py-8">
-          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               <div data-id="1"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
                   <div class="h-56 w-full">
 <!-- Gambar dengan GLightbox -->
@@ -272,6 +272,348 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.15.10/dist/sweetalert2.min.css
                       <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Topi law One Piece</a>
                       <div class="mt-4 flex items-center justify-between gap-4">
                           <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp47,709</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="5"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="luffy.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="luffy.jpg" alt="Topi luffy" />
+      <img class="mx-auto hidden h-full dark:block" src="luffy.jpg" alt="topi law one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Topi luffy One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp67,709</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="6"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="usopp.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="usopp.jpg" alt="Topi usopp" />
+      <img class="mx-auto hidden h-full dark:block" src="usopp.jpg" alt="topi usopp one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Topi usopp One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp57,579</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="7"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="bounce.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="bounce.jpg" alt="BOUNCEMAN" />
+      <img class="mx-auto hidden h-full dark:block" src="bounce.jpg" alt="bounceman one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju Luffy gear 4 One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp105,579</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="8"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="uta.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="uta.jpg" alt="uta" />
+      <img class="mx-auto hidden h-full dark:block" src="uta.jpg" alt="uta one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju uta One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp85,300</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="9"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="logoShiro.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="logoShiro.jpg" alt="shirohige" />
+      <img class="mx-auto hidden h-full dark:block" src="logoShiro.jpg" alt="shiro one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju Logo shirohige One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp100,300</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="10"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="marco.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="marco.jpg" alt="shirohige" />
+      <img class="mx-auto hidden h-full dark:block" src="marco.jpg" alt="marco one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju marco One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp93,500</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="11"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="gear5.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="gear5.jpg" alt="shirohige" />
+      <img class="mx-auto hidden h-full dark:block" src="gear5.jpg" alt="gear 5 one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju gear 5 One Piece</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp67,500</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="12"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="kru.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="kru.jpg" alt="kru shp" />
+      <img class="mx-auto hidden h-full dark:block" src="kru.jpg" alt="gear 5 one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Baju Emperor Strawhat</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp67,500</p>
+  
+                          <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
+                              <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div data-id="13"class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 product">
+                  <div class="h-56 w-full">
+<!-- Gambar dengan GLightbox -->
+  <a href="boxerluffy.jpg" class="glightbox mx-auto w-full md:w-3/4 lg:w-1/2">
+      <img class="mx-auto h-full dark:hidden" src="boxerluffy.jpg" alt="kru shp" />
+      <img class="mx-auto hidden h-full dark:block" src="boxerluffy.jpg" alt="gear 5 one piece" />
+  </a>
+                  </div>
+                  <div class="pt-6">
+                      <div class="mb-4 flex items-center justify-between gap-4">
+                          <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> </span>
+  
+                          <div class="flex items-center justify-end gap-1">
+                              <div id="tooltip-quick-look" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Quick look
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+  
+                              <div id="tooltip-add-to-favorites" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700" data-popper-placement="top">
+                                  Add to favorites
+                                  <div class="tooltip-arrow" data-popper-arrow=""></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <a href="#" class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white product-name">Celana Boxer luffy</a>
+                      <div class="mt-4 flex items-center justify-between gap-4">
+                          <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white product-price">Rp50,500</p>
   
                           <button onclick="showAddToCartAlert()" type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-black hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 whitespace-nowrap add-to-cart">
                               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
